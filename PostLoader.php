@@ -12,6 +12,7 @@ class PostLoader {
     public function savePost(){
         // Encode the posts array to save it to the database.txt file
         $encodedPosts = serialize($this->posts); // Converts an array or object to a string representation of the object
+        //otherwise we could use json_encode and export
         // $contents = file_get_contents('database.txt');
         file_put_contents(self::DB_FILE, $encodedPosts);
     }
