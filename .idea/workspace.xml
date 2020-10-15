@@ -20,10 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ec0b426-5303-4967-82f9-64f6763bfa9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PostLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/PostLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/form.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +37,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="challenge-php-guestbook.local" id="dd39add9-e1da-4805-9358-f3adc7e98481" name="challenge-php-guestbook.local" />
+    </servers>
+  </component>
   <component name="ProjectId" id="1iuCe1AVOjD6LqHVcO9baeYWecC" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -51,6 +55,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/PHP Guestbook/challenge-php-guestbook/form.php" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -61,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602748181876</updated>
-      <workItem from="1602748183035" duration="5223000" />
+      <workItem from="1602748183035" duration="12274000" />
     </task>
     <servers />
   </component>
@@ -91,5 +96,9 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="512" y="322" width="399" height="149" key="NewPhpFileDialog/67.27.1299.741@67.27.1299.741" timestamp="1602768097974" />
+    <state x="205" y="31" key="SettingsEditor" timestamp="1602773902293">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="205" y="31" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1602773902293" />
   </component>
 </project>

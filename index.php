@@ -27,5 +27,5 @@ whatIsHappening(); // call function
 require 'example.php';
 require 'Post.php';
 require 'PostLoader.php';
-require 'form.php';
 require 'database.txt';
+require 'form.php';

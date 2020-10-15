@@ -2,7 +2,8 @@
 
 class PostLoader {
     private $posts = [];
-    const DB_FILE = 'database.txt';
+    //private $contents = 'database.txt';
+    //const DB_FILE = 'database.txt';
 
     public function addPost($title, $content, $author){
         $newPost = new Post($title, $content, $author);
@@ -13,8 +14,10 @@ class PostLoader {
         // Encode the posts array to save it to the database.txt file
         $encodedPosts = serialize($this->posts); // Converts an array or object to a string representation of the object
         //otherwise we could use json_encode and export
-        // $contents = file_get_contents('database.txt');
-        file_put_contents(self::DB_FILE, $encodedPosts);
+
+        //file_put_contents('database.txt', $encodedPosts);
+        $contents = file_get_contents('database.txt', $encodedPosts);
+        //file_put_contents(self::DB_FILE, $encodedPosts);
     }
 
     public function getPosts(){
@@ -22,8 +25,8 @@ class PostLoader {
     }
 
     public function __construct() {
-        //$contents = file_get_contents('database.txt');
-        $contents = file_get_contents(self::DB_FILE);
+        $contents = file_get_contents('database.txt');
+        //$contents = file_get_contents(self::DB_FILE);
         $this->posts = unserialize($contents); //put contents in posts, converts string to array
     }
 
