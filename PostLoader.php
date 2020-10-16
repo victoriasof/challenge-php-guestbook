@@ -27,7 +27,11 @@ class PostLoader {
     public function __construct() {
         //$contents = file_get_contents('database.txt');
         $contents = file_get_contents(self::DB_FILE);
+
+
         if (!empty($contents)){
+        //added if (!empty($contents)) in order to solve error on line 10:
+        // array_push() expects parameter 1 to be array in Postloader
             $this->posts = unserialize($contents); //put contents in posts, converts string to array
         }
 
