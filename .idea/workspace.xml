@@ -22,8 +22,8 @@
     <list default="true" id="3ec0b426-5303-4967-82f9-64f6763bfa9b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PostLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/PostLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602748181876</updated>
-      <workItem from="1602748183035" duration="12274000" />
+      <workItem from="1602748183035" duration="13093000" />
+      <workItem from="1602831358949" duration="2366000" />
     </task>
     <servers />
   </component>
@@ -83,6 +84,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -92,6 +94,54 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1602768284983" />
+    <state width="1253" height="219" key="GridCell.Tab.0.bottom" timestamp="1602833924830">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1602833924830" />
+    <state width="1253" height="219" key="GridCell.Tab.0.center" timestamp="1602833924829">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1602833924829" />
+    <state width="1253" height="219" key="GridCell.Tab.0.left" timestamp="1602833924828">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1602833924828" />
+    <state width="1253" height="219" key="GridCell.Tab.0.right" timestamp="1602833924829">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1602833924829" />
+    <state width="1253" height="219" key="GridCell.Tab.1.bottom" timestamp="1602833924830">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1602833924830" />
+    <state width="1253" height="219" key="GridCell.Tab.1.center" timestamp="1602833924830">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1602833924830" />
+    <state width="1253" height="219" key="GridCell.Tab.1.left" timestamp="1602833924830">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1602833924830" />
+    <state width="1253" height="219" key="GridCell.Tab.1.right" timestamp="1602833924830">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1602833924830" />
+    <state width="1253" height="219" key="GridCell.Tab.2.bottom" timestamp="1602833924831">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.2.bottom/67.27.1299.741@67.27.1299.741" timestamp="1602833924831" />
+    <state width="1253" height="219" key="GridCell.Tab.2.center" timestamp="1602833924831">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.2.center/67.27.1299.741@67.27.1299.741" timestamp="1602833924831" />
+    <state width="1253" height="219" key="GridCell.Tab.2.left" timestamp="1602833924831">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.2.left/67.27.1299.741@67.27.1299.741" timestamp="1602833924831" />
+    <state width="1253" height="219" key="GridCell.Tab.2.right" timestamp="1602833924831">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.2.right/67.27.1299.741@67.27.1299.741" timestamp="1602833924831" />
     <state x="512" y="322" width="399" height="149" key="NewPhpFileDialog" timestamp="1602768097974">
       <screen x="67" y="27" width="1299" height="741" />
     </state>

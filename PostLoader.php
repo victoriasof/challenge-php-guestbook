@@ -3,7 +3,7 @@
 class PostLoader {
     private $posts = [];
     //private $contents = 'database.txt';
-    //const DB_FILE = 'database.txt';
+    const DB_FILE = 'database.txt';
 
     public function addPost($title, $content, $author){
         $newPost = new Post($title, $content, $author);
@@ -16,8 +16,8 @@ class PostLoader {
         //otherwise we could use json_encode and export
 
         //file_put_contents('database.txt', $encodedPosts);
-        $contents = file_get_contents('database.txt', $encodedPosts);
-        //file_put_contents(self::DB_FILE, $encodedPosts);
+        //$contents = file_get_contents('database.txt', $encodedPosts);
+        file_put_contents(self::DB_FILE, $encodedPosts);
     }
 
     public function getPosts(){
@@ -25,9 +25,12 @@ class PostLoader {
     }
 
     public function __construct() {
-        $contents = file_get_contents('database.txt');
-        //$contents = file_get_contents(self::DB_FILE);
-        $this->posts = unserialize($contents); //put contents in posts, converts string to array
+        //$contents = file_get_contents('database.txt');
+        $contents = file_get_contents(self::DB_FILE);
+        if (!empty($contents)){
+            $this->posts = unserialize($contents); //put contents in posts, converts string to array
+        }
+
     }
 
 }
