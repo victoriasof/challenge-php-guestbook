@@ -17,6 +17,6 @@ $articles = ['Terror over london', 'Football: a useless hobby?', 'Economic crisi
 <body>
     <h1>Welcome to my site!</h1>
     <h2>Recent articles</h2>
-    <h2>Recent articles</h2>
+
 </body>
 </html>
